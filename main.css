@@ -1,1 +1,17 @@
+.the_square {
+    position: relative;
+    left: 992 px;
+    text-align: center;
+    width: 809 px;
+    height: 479 px;
+    border-radius: 25 px;
 
+}
+.the_square.purple {
+    top: 42 px;
+    fill: color(#EADAEF);
+}
+.the_square.cyan {
+    top: 551 px;
+    fill: color(#85F8E9);
+}
