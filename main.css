@@ -1,17 +1,21 @@
+
 .the_square {
     position: absolute;
-    left: 992 px;
+    left: 51.6vw;
     text-align: center;
-    width: 809 px;
-    height: 479 px;
-    border-radius: 25 px;
+    width: 809px;
+    height: 479px;
+    border-radius: 25px;
+    color: cadetblue;
 
 }
 .the_square.purple {
-    top: 42 px;
-    fill: color(#EADAEF);
+    top: 42px;
+    --the_purple:#EADAEF;
+    background-color: var(--the_purple);
 }
 .the_square.cyan {
-    top: 551 px;
-    fill: color(#85F8E9);
+    top: 551px;
+    --the_cyan:#85F8E9;
+    background-color: #85F8E9;
 }
