@@ -1,21 +1,115 @@
+.allbutfooter {
+    min-height: calc(100vh - 30px);
+}
+
+.intros {
+    position: absolute;
+    left: 8.177vw;
+    top: 14.6296vh;
+    width: 30.833vw;
+    height: 70.37037vh;
+    text-align: center;
+    font-family: 'Inter';
+    /*background-color: aliceblue;*/
+}
+.intros h1 {
+    font-size: 4.4444vh;
+    
+}
+.intros h2 {
+    font-size: 5vh;
+}
+.intros h3 {
+    font-size: 3.703703vh;
+}
+.intros h4 {
+    font-size: 2.962962962vh;
+}
+span.boldblue {
+    color: #1F7B83;
+}
+
+.pfp {
+    position: absolute;
+    left: 14.843vw;
+    top: 55.27777777vh;
+    width: 17.5vw;
+    height: 28.703703vh;
+}
+
+.otherthing h4 {
+    position:absolute;
+    font-family: 'Inter';
+    left: 12.343vw;
+    top: 81.01851851vh;
+    width: 22.5vw;
+    height: 10.37037037037vh;
+    text-align: center;
+    font-size: 3.333333vh;
+}
+
 
 .the_square {
     position: absolute;
+    display: flex;
     left: 51.6vw;
     text-align: center;
-    width: 809px;
-    height: 479px;
+    width: 42.13541vw;
+    height: 44.35185185vh;
     border-radius: 25px;
-    color: cadetblue;
+    box-shadow: 8px 8px 4px rgb(217, 222, 224);
+    
+    flex-direction: column;
+    
 
 }
+
 .the_square.purple {
-    top: 42px;
+    font-family: 'B612 Mono';
+    top: 3.88888888vh;
     --the_purple:#EADAEF;
     background-color: var(--the_purple);
 }
 .the_square.cyan {
-    top: 551px;
+    font-family: 'Mochiy Pop P One';
+    top: 51.018518vh;
+    color: #168288;
     --the_cyan:#85F8E9;
     background-color: #85F8E9;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+} 
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.the_square.purple nav img{
+    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 5.083333vw;
+    height: 8.8592592vh;
+}
+
+
+
+.the_square.cyan nav img{
+    padding: 20px;
+    width: 6.770833333333vw;
+    height: 12.03703vh;
+}
+.the_square h1 {
+  align-self: top;
+  align-self: center;
+}
+
+footer {
+    font-family: 'Inter';
+    text-align: center;
 }
